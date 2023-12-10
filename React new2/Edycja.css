@@ -1,0 +1,26 @@
+.EdycjaLekcji {
+    color: white;
+}
+
+.EdycjaLekcji button {
+    background-color: aqua;
+    width: 6vw;
+    height: 4vh;
+}
+
+.EdycjaLekcji .EdycjaLekcji__input-grupa {
+    color: #fff;
+    text-decoration: underline;
+    padding: 1%;
+}
+
+.EdycjaLekcji .EdycjaLekcji__input-grupa input{
+    width: 10%;
+    border: 2px solid aqua;
+    background-color: #ddd;
+    transition: border 0.2s ease-out;
+}
+
+.EdycjaLekcji .EdycjaLekcji__input-grupa input:hover {
+    border: 2px solid red;
+}

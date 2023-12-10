@@ -1,0 +1,10 @@
+#root,
+.odliczanie{
+    height: 100%;
+}
+.odliczanie{
+    background: rgb(96,43,7);
+    background: linear-gradient(90deg, rgb(95, 49, 18) 0%, rgba(121,60,9,1) 24%, rgba(255,162,0,1) 100%);
+    max-width: 500px;
+    margin: 0 auto;
+}
