@@ -1,0 +1,67 @@
+body{
+    background-color: #1d6cd3;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+
+.tytul{
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.kontener{
+    width: 30%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.lekcje{
+    text-align: center;
+}
+.form{
+    margin-top: 150px;
+    display: flex;
+    text-align: center;
+    
+}
+input{
+    padding: 15px;
+    margin: 5px;
+    background-color: #19d8df;
+    border: 2px solid #0e4e50;
+    color: #fff;
+}
+
+.buttons{
+    display: flex;
+}
+button {
+    color: #fff;
+    width: 160px;
+    height: 48px;
+    background-color: #0c98bb;
+    border: 1px solid #0c98bb;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  
+h3{
+    margin: 10px;
+}
+
+::placeholder{
+    color: #000000;
+  }

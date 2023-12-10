@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" href="../PlikiCSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czas podróży</title>
+</head>
+<body>
+    Podaj czas przejazdu: <input type="number" name="czas" id="czas">
+    <br>
+    Podaj Dystant:<input type="number" name="dystans" id="dystans">
+<br>
+
+
+<input type="button" name="end" id="end" value="Prześlij" onclick="licz()">
+<br>
+<select type="list" name="lista" id="lista">
+    <option name="first" id="first">Kilometr</option>
+    <option name="second" id="second">metry</option>
+</select>
+<select type="list" name="lista2" id="lista2">
+    <option name="first1" id="first1">H</option>
+    <option name="second2" id="second2">Minuty</option>
+</select>
+
+<p name="sum" id="sum"></p>
+<p name="sum2" id="sum1"></p>
+</body>
+<script src="../PlikiJS/czas_podrozy.js">
+
+</script>
+</html>

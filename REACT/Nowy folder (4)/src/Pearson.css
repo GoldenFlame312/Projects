@@ -1,0 +1,32 @@
+:root {
+	--background: #23b34e;
+	--second_background: #001524;
+	--text_color: #fff;
+}
+body {
+	background-color: var(--second_background);
+}
+.odliczanie {
+	margin-top: 1rem;
+	font-size: 1.2rem;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	border-radius: 20px;
+	text-align: center;
+	padding: 15px;
+	background-color: var(--second_background);
+	color: var(--text_color);
+}
+.odliczanie strong {
+	color: var(--text_color);
+}
+#h1 {
+	color: var(--text_color);
+	font-size: 50px;
+	padding: 30px;
+	margin-top: 50px;
+}
+table{
+	margin-bottom: 100px;
+}
